@@ -1,49 +1,842 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <!-- <link rel="stylesheet" href="css/theme/black.css" /> -->
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div
+      class="theme-font-montserrat theme-color-white-blue"
+      style="width: 100%; height: 100%;"
+    >
+      <div class="reveal">
+        <div class="slides">
+          <section>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="min-width: 4px; min-height: 4px; width: 775px; height: 700px; left: 93px; top: 0px;"
+            >
+              <div class="sl-block-content" style="z-index: 11;">
+                <img
+                  data-natural-width="1280"
+                  data-natural-height="1156"
+                  style=""
+                  data-lazy-loaded=""
+                  data-src="http://pngimg.com/uploads/github/github_PNG20.png"
+                />
+              </div>
+            </div>
+          </section>
+          <section class="stack">
+            <section data-transition="fade" data-background-color="#f4f4f4">
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 807px; left: 76px; top: 43px; height: auto;"
+              >
+                <div
+                  class="sl-block-content"
+                  style="z-index: 10; letter-spacing: 0.45em;"
+                  data-has-letter-spacing=""
+                >
+                  <h1>GitHub</h1>
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 887px; left: 36px; top: 210px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 11;">
+                  <pre
+                    style="text-align:justify"
+                  ><span style="font-size:27px"> </span>GitHub<span style="color:rgb(34, 34, 34); text-align:start">&nbsp;is an American company that provides </span>hosting<span style="color:rgb(34, 34, 34); text-align:start">&nbsp;for </span>software development<span style="color:rgb(34, 34, 34); text-align:start">&nbsp;</span>version control<span style="color:rgb(34, 34, 34); text-align:start">&nbsp;using </span>Git.</pre>
+                </div>
+              </div>
+            </section>
+            <section data-transition="fade" data-background-color="#f4f4f4">
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 807px; left: 76px; top: 43px; height: auto;"
+              >
+                <div
+                  class="sl-block-content"
+                  style="z-index: 10; letter-spacing: 0.45em;"
+                  data-has-letter-spacing=""
+                >
+                  <h1>GitHub</h1>
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 887px; left: 36px; top: 210px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 11;">
+                  <pre
+                    style="text-align:justify"
+                  ><span style="font-size:27px"> </span>GitHub<span style="color:rgb(34, 34, 34); text-align:start">&nbsp;is an American company that provides </span>hosting<span style="color:rgb(34, 34, 34); text-align:start">&nbsp;for </span>software development<span style="color:rgb(34, 34, 34); text-align:start">&nbsp;</span>version control<span style="color:rgb(34, 34, 34); text-align:start">&nbsp;using </span>Git.</pre>
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 887px; left: 36px; top: 420px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 12;">
+                  <pre
+                    style="text-align:justify"
+                  ><span style="font-size:27px"> </span><span style="color:rgb(34, 34, 34); text-align:start">GitHub was developed by </span>Chris Wanstrath<span style="color:rgb(34, 34, 34); text-align:start">, </span>P. J. Hyett<span style="color:rgb(34, 34, 34); text-align:start">, </span>Tom Preston-Werner<span style="color:rgb(34, 34, 34); text-align:start">&nbsp;and </span>Scott Chacon<span style="color:rgb(34, 34, 34); text-align:start">&nbsp;using </span>Ruby on Rails<span style="color:rgb(34, 34, 34); text-align:start">, and started in February 2008.</span></pre>
+                </div>
+              </div>
+            </section>
+          </section>
+          <section class="stack">
+            <section data-transition="fade" data-background-color="#f4f4f4">
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 807px; left: 76px; top: 43px; height: auto;"
+              >
+                <div
+                  class="sl-block-content"
+                  style="z-index: 10; letter-spacing: 0.45em;"
+                  data-has-letter-spacing=""
+                >
+                  <h1>GitHub</h1>
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 887px; left: 36px; top: 181px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 11;">
+                  <pre
+                    style="text-align:justify"
+                  ><span style="font-size:27px">   </span>Projects on GitHub can be accessed and manipulated using the standard Git command-line interface.&nbsp;</pre>
+                </div>
+              </div>
+            </section>
+            <section data-transition="fade" data-background-color="#f4f4f4">
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 807px; left: 76px; top: 43px; height: auto;"
+              >
+                <div
+                  class="sl-block-content"
+                  style="z-index: 10; letter-spacing: 0.45em;"
+                  data-has-letter-spacing=""
+                >
+                  <h1>GitHub</h1>
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 887px; left: 36px; top: 181px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 11;">
+                  <pre
+                    style="text-align:justify"
+                  ><span style="font-size:27px">   </span>Projects on GitHub can be accessed and manipulated using the standard Git command-line interface.&nbsp;</pre>
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 887px; left: 36px; top: 295px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 12;">
+                  <pre style="text-align: justify;">
+   The site provides social networking-like functions such as feeds, followers, wikis and etc...</pre
+                  >
+                </div>
+              </div>
+            </section>
+            <section data-transition="fade" data-background-color="#f4f4f4">
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 807px; left: 76px; top: 43px; height: auto;"
+              >
+                <div
+                  class="sl-block-content"
+                  style="z-index: 10; letter-spacing: 0.45em;"
+                  data-has-letter-spacing=""
+                >
+                  <h1>GitHub</h1>
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 887px; left: 36px; top: 181px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 11;">
+                  <pre
+                    style="text-align:justify"
+                  ><span style="font-size:27px">   </span>Projects on GitHub can be accessed and manipulated using the standard Git command-line interface.&nbsp;</pre>
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 887px; left: 36px; top: 295px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 12;">
+                  <pre style="text-align: justify;">
+   The site provides social networking-like functions such as feeds, followers, wikis and etc...</pre
+                  >
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 887px; left: 36px; top: 408px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 13;">
+                  <pre style="text-align: justify;">
+   A user must create an account in order to contribute content to the site, but public repositories can be browsed and downloaded by anyone.</pre
+                  >
+                </div>
+              </div>
+            </section>
+            <section data-transition="fade" data-background-color="#f4f4f4">
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 807px; left: 76px; top: 43px; height: auto;"
+              >
+                <div
+                  class="sl-block-content"
+                  style="z-index: 10; letter-spacing: 0.45em;"
+                  data-has-letter-spacing=""
+                >
+                  <h1>GitHub</h1>
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 887px; left: 36px; top: 181px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 11;">
+                  <pre
+                    style="text-align:justify"
+                  ><span style="font-size:27px">   </span>Projects on GitHub can be accessed and manipulated using the standard Git command-line interface.&nbsp;</pre>
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 887px; left: 36px; top: 295px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 12;">
+                  <pre style="text-align: justify;">
+   The site provides social networking-like functions such as feeds, followers, wikis and etc...</pre
+                  >
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 887px; left: 36px; top: 408px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 13;">
+                  <pre style="text-align: justify;">
+   A user must create an account in order to contribute content to the site, but public repositories can be browsed and downloaded by anyone.</pre
+                  >
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 887px; left: 36px; top: 545px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 14;">
+                  <pre style="text-align: justify;">
+   The fundamental software that underpins GitHub is Git itself, written by Linus Torvalds, creator of Linux. 
+	</pre
+                  >
+                </div>
+              </div>
+            </section>
+          </section>
+          <section data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 953px; left: 4px; top: 237px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 10;">
+                <h3>
+                  <span style="font-size:1.4em"
+                    ><span style="color:rgb(34, 34, 34); text-align:start"
+                      >GitHub is mostly used for code</span
+                    ></span
+                  >
+                </h3>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 807px; left: 76px; top: 384px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 11;">
+                <p>
+                  <span style="font-size:1.0em"
+                    ><span style="color:rgb(34, 34, 34); text-align:start"
+                      >In addition to hosting </span
+                    >source code<span
+                      style="color:rgb(34, 34, 34); text-align:start"
+                      >, GitHub supports the following formats and
+                      features:</span
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+          </section>
+          <section data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 807px; left: 80px; top: 0px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 10;">
+                <h2>Documentation</h2>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="width: 808px; height: 607px; left: 77px; top: 73px; min-width: 4px; min-height: 4px;"
+            >
+              <div
+                class="sl-block-content"
+                style="z-index: 11; border-style: solid; border-radius: 20px;"
+              >
+                <img
+                  style=""
+                  data-natural-width="948"
+                  data-natural-height="712"
+                  data-lazy-loaded=""
+                  data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6844510/readme.PNG"
+                />
+              </div>
+            </div>
+          </section>
+          <section data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 807px; left: 80px; top: 0px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 10;">
+                <h2>Issue tracking</h2>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="width: 808px; height: 521px; left: 77px; top: 139px; min-width: 4px; min-height: 4px;"
+            >
+              <div
+                class="sl-block-content"
+                style="z-index: 11; border-style: solid; border-radius: 20px;"
+              >
+                <img
+                  style=""
+                  data-natural-width="955"
+                  data-natural-height="616"
+                  data-lazy-loaded=""
+                  data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6844595/isys.PNG"
+                />
+              </div>
+            </div>
+          </section>
+          <section data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 807px; left: 80px; top: 0px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 10;">
+                <h2>Wikis</h2>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="width: 703px; height: 625px; left: 129px; top: 74px; min-width: 4px; min-height: 4px;"
+            >
+              <div
+                class="sl-block-content"
+                style="z-index: 11; border-style: solid; border-radius: 20px;"
+              >
+                <img
+                  style=""
+                  data-natural-width="898"
+                  data-natural-height="798"
+                  data-lazy-loaded=""
+                  data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6844664/wiki.PNG"
+                />
+              </div>
+            </div>
+          </section>
+          <section data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 807px; left: 80px; top: 0px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 10;">
+                <h2>Pull request</h2>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="width: 752px; height: 509px; left: 105px; top: 133px; min-width: 4px; min-height: 4px;"
+            >
+              <div
+                class="sl-block-content"
+                style="z-index: 11; border-style: solid; border-radius: 20px;"
+              >
+                <img
+                  style=""
+                  data-natural-width="923"
+                  data-natural-height="625"
+                  data-lazy-loaded=""
+                  data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6844680/PR.PNG"
+                />
+              </div>
+            </div>
+          </section>
+          <section data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 807px; left: 80px; top: 0px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 10;">
+                <h2>Commits history</h2>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="width: 775px; height: 479px; left: 93px; top: 140px; min-width: 4px; min-height: 4px;"
+            >
+              <div
+                class="sl-block-content"
+                style="z-index: 11; border-style: solid; border-radius: 20px;"
+              >
+                <img
+                  style=""
+                  data-natural-width="922"
+                  data-natural-height="570"
+                  data-lazy-loaded=""
+                  data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6844756/commitHistory.PNG"
+                />
+              </div>
+            </div>
+          </section>
+          <section data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 807px; left: 80px; top: 0px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 10;">
+                <h2>Graphs</h2>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="width: 773px; height: 471px; left: 93px; top: 144px; min-width: 4px; min-height: 4px;"
+            >
+              <div
+                class="sl-block-content"
+                style="z-index: 11; border-style: solid; border-radius: 20px;"
+              >
+                <img
+                  style=""
+                  data-natural-width="907"
+                  data-natural-height="553"
+                  data-lazy-loaded=""
+                  data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6844915/graphs.PNG"
+                />
+              </div>
+            </div>
+          </section>
+          <section class="stack">
+            <section data-background-color="#f4f4f4" data-transition="fade">
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 807px; left: 80px; top: 0px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 10;">
+                  <h2>Unified and split diffs</h2>
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="image"
+                style="width: 771px; height: 596px; left: 93px; top: 81px; min-width: 4px; min-height: 4px;"
+              >
+                <div
+                  class="sl-block-content"
+                  style="z-index: 11; border-style: solid; border-radius: 20px;"
+                >
+                  <img
+                    style=""
+                    data-natural-width="908"
+                    data-natural-height="702"
+                    data-lazy-loaded=""
+                    data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6845086/unified.PNG"
+                  />
+                </div>
+              </div>
+            </section>
+            <section data-background-color="#f4f4f4" data-transition="fade">
+              <div
+                class="sl-block"
+                data-block-type="text"
+                style="width: 807px; left: 80px; top: 0px; height: auto;"
+              >
+                <div class="sl-block-content" style="z-index: 10;">
+                  <h2>Unified and split diffs</h2>
+                </div>
+              </div>
+              <div
+                class="sl-block"
+                data-block-type="image"
+                style="width: 771px; height: 507px; left: 93px; top: 125px; min-width: 4px; min-height: 4px;"
+              >
+                <div
+                  class="sl-block-content"
+                  style="z-index: 11; border-style: solid; border-radius: 20px;"
+                >
+                  <img
+                    style=""
+                    data-natural-width="1033"
+                    data-natural-height="679"
+                    data-lazy-loaded=""
+                    data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6845093/split.PNG"
+                  />
+                </div>
+              </div>
+            </section>
+          </section>
+          <section data-transition="fade" data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 807px; left: 80px; top: 0px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 10;">
+                <h2>Email notifications</h2>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="width: 945px; height: 83px; left: 7px; top: 140px; min-width: 4px; min-height: 4px;"
+            >
+              <div
+                class="sl-block-content"
+                style="z-index: 11; border-style: solid; border-radius: 20px;"
+              >
+                <img
+                  style=""
+                  data-natural-width="1048"
+                  data-natural-height="92"
+                  data-lazy-loaded=""
+                  data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6845121/email.PNG"
+                />
+              </div>
+            </div>
+          </section>
+          <section data-transition="fade" data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 946px; left: 7px; top: 0px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 10;">
+                <h3>
+                  Option to subscribe someone to notifications by @ mentioning
+                  them
+                </h3>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="width: 947px; height: 498px; left: 7px; top: 132px; min-width: 4px; min-height: 4px;"
+            >
+              <div
+                class="sl-block-content"
+                style="z-index: 11; border-style: solid; border-radius: 20px;"
+              >
+                <img
+                  style=""
+                  data-natural-width="819"
+                  data-natural-height="431"
+                  data-lazy-loaded=""
+                  data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6845261/sobaka.jpeg"
+                />
+              </div>
+            </div>
+          </section>
+          <section data-transition="fade" data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 946px; left: 7px; top: 0px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 10;">
+                <h2>GitHub Pages</h2>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="width: 606px; height: 528px; left: 177px; top: 102px; min-width: 4px; min-height: 4px;"
+            >
+              <div
+                class="sl-block-content"
+                style="z-index: 11; border-style: solid; border-radius: 20px;"
+              >
+                <img
+                  style=""
+                  data-natural-width="761"
+                  data-natural-height="663"
+                  data-lazy-loaded=""
+                  data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6845326/pages.png"
+                />
+              </div>
+            </div>
+          </section>
+          <section data-transition="fade" data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 946px; left: 7px; top: 0px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 10;">
+                <h2>3D render</h2>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="width: 608px; height: 488px; left: 177px; top: 121.5px; min-width: 4px; min-height: 4px;"
+            >
+              <div
+                class="sl-block-content"
+                style="z-index: 11; border-style: solid; border-radius: 20px;"
+              >
+                <img
+                  style=""
+                  data-natural-width="600"
+                  data-natural-height="482"
+                  data-lazy-loaded=""
+                  data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6845469/ezgif.com-video-to-gif.gif"
+                />
+              </div>
+            </div>
+          </section>
+          <section data-transition="fade" data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 946px; left: 7px; top: 0px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 11;">
+                <h2>PSD Viewing &amp; Diffing</h2>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="min-width: 4px; min-height: 4px; width: 550px; height: 580px; left: 205px; top: 93px;"
+            >
+              <div
+                class="sl-block-content"
+                style="z-index: 13; border-style: solid; border-radius: 20px;"
+              >
+                <img
+                  style=""
+                  data-natural-width="507"
+                  data-natural-height="535"
+                  data-lazy-loaded=""
+                  data-src="https://github.blog/wp-content/uploads/2014/06/55f2798a-eb56-11e3-92e7-b79ad791a697.gif?resize=507%252C535"
+                />
+              </div>
+            </div>
+          </section>
+          <section data-transition="fade" data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 946px; left: 7px; top: 0px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 10;">
+                <h2>PDF document viewer</h2>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="width: 729px; height: 549px; left: 116px; top: 105px; min-width: 4px; min-height: 4px;"
+            >
+              <div
+                class="sl-block-content"
+                style="z-index: 11; border-style: solid; border-radius: 20px;"
+              >
+                <img
+                  style=""
+                  data-natural-width="907"
+                  data-natural-height="683"
+                  data-lazy-loaded=""
+                  data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6845528/pdf.PNG"
+                />
+              </div>
+            </div>
+          </section>
+          <section data-transition="fade" data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 946px; left: 7px; top: 0px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 10;">
+                <h2>Nested task-lists within files</h2>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="width: 583px; height: 292px; left: 189px; top: 183px; min-width: 4px; min-height: 4px;"
+            >
+              <div
+                class="sl-block-content"
+                style="z-index: 11; border-style: solid; border-radius: 20px;"
+              >
+                <img
+                  style=""
+                  data-natural-width="401"
+                  data-natural-height="201"
+                  data-lazy-loaded=""
+                  data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6845596/task-list.png"
+                />
+              </div>
+            </div>
+          </section>
+          <section data-transition="fade" data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 946px; left: 7px; top: 0px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 10;">
+                <h3>
+                  <span style="font-size:0.9em"
+                    >Security Alerts of known Common Vulnerabilities and
+                    Exposures in different packages</span
+                  >
+                </h3>
+              </div>
+            </div>
+            <div
+              class="sl-block"
+              data-block-type="image"
+              style="width: 628px; height: 527px; left: 166px; top: 140px; min-width: 4px; min-height: 4px;"
+            >
+              <div
+                class="sl-block-content"
+                style="z-index: 11; border-style: solid; border-radius: 20px;"
+              >
+                <img
+                  style="left: -64px; top: 0px; width: 751px; height: 527px;"
+                  data-natural-width="920"
+                  data-natural-height="646"
+                  data-lazy-loaded=""
+                  data-crop-x="0.085851"
+                  data-crop-y="0"
+                  data-crop-width="0.836248"
+                  data-crop-height="1"
+                  data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1208284/images/6845620/security.png"
+                />
+              </div>
+            </div>
+          </section>
+          <section data-background-color="#f4f4f4">
+            <div
+              class="sl-block"
+              data-block-type="text"
+              style="width: 807px; left: 73px; top: 254px; height: auto;"
+            >
+              <div class="sl-block-content" style="z-index: 11;">
+                <h1>Thank you for your attention!</h1>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <script src="js/reveal.js"></script>
 
-		<script src="js/reveal.js"></script>
-
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        width: 960,
+        height: 700,
+        transition: "slide",
+        backgroundTransition: "slide",
+        center: false,
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/notes/notes.js", async: true },
+          { src: "plugin/highlight/highlight.js", async: true }
+        ]
+      });
+    </script>
+  </body>
 </html>
